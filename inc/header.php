@@ -7,7 +7,7 @@ if ($hour >= 8 && $hour < 20) {
     $header_bg = '#ffffff';
     $card_bg = '#ffffff';
     $shadow = '0 4px 20px rgba(30, 58, 95, 0.12)';
-    $border_color = '#dce4f0';
+    $border_color = '#dce4f0'; 
 } else {
     $theme = 'dark';
     $bg = '#0d1b2a';
@@ -16,6 +16,7 @@ if ($hour >= 8 && $hour < 20) {
     $card_bg = '#1e2d4a';
     $shadow = '0 4px 20px rgba(0, 0, 0, 0.4)';
     $border_color = '#2a3d60';
+    //Для комментариев 
 }
 ?>
 <!DOCTYPE html>
