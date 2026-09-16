@@ -13,7 +13,7 @@ include '../inc/header.php';
             <div class="product-detail__info">
                 <h1 class="product-detail__title">Умная лампа Glow Pro</h1>
                 <div class="product-detail__price">5 990 ₽</div>
-                <p class="product-detail__description">Элегантная умная лампа с поддержкой Wi-Fi и приложения. Изменяйте цветовую температуру от тёплого до холодного света, создавайте сценарии освещения, управляйте голосом через Алису или Google Assistant.</p>
+                <p class="product-detail__description">Элегантная умная лампа с поддержкой Wi-Fi и приложения. Изменяйте цветовую температуру от тёплого до холодного света, создавайте сценарии освещения.</p>
                 <ul class="product-detail__specs">
                     <li>16 миллионов цветов RGB + оттенки белого</li>
                     <li>Управление со смартфона (iOS / Android)</li>

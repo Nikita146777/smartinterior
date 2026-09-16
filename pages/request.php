@@ -8,17 +8,11 @@ include '../inc/header.php';
     <div class="container">
         <div class="request__card">
             <h1 class="request__title">Оставить заявку</h1>
-            <p style="text-align: center; margin-bottom: 24px; color: #5a7b9c;">Заполните форму, и наш специалист свяжется с вами</p>
+            <p style="text-align: center; margin-bottom: 24px;">Заполните форму, и наш специалист свяжется с вами</p>
             <form>
-                <div class="form-group">
-                    <input type="text" placeholder="Ваше имя" required>
-                </div>
-                <div class="form-group">
-                    <input type="tel" placeholder="Телефон" required>
-                </div>
-                <div class="form-group">
-                    <input type="email" placeholder="Email">
-                </div>
+                <div class="form-group"><input type="text" placeholder="Ваше имя" required></div>
+                <div class="form-group"><input type="tel" placeholder="Телефон" required></div>
+                <div class="form-group"><input type="email" placeholder="Email"></div>
                 <div class="form-group">
                     <select>
                         <option>Выберите услугу</option>
@@ -34,9 +28,7 @@ include '../inc/header.php';
                         <option>Хаб управления</option>
                     </select>
                 </div>
-                <div class="form-group">
-                    <textarea rows="4" placeholder="Комментарий"></textarea>
-                </div>
+                <div class="form-group"><textarea rows="4" placeholder="Комментарий"></textarea></div>
                 <div class="checkbox-group">
                     <input type="checkbox" id="consent">
                     <label for="consent">Я согласен на обработку персональных данных</label>

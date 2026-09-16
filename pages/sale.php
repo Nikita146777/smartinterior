@@ -15,7 +15,7 @@ include '../inc/header.php';
                 </div>
                 <div class="sale-card__content">
                     <h3>Умный термостат PRO</h3>
-                    <p>Экономия до 30% на отоплении. Управление со смартфона. Интеллектуальное планирование температуры.</p>
+                    <p>Экономия до 30% на отоплении. Управление со смартфона.</p>
                     <div class="sale-card__old-price">14 990 ₽</div>
                     <div class="sale-card__new-price">12 741 ₽</div>
                     <a href="/smartinterior/pages/request.php" class="btn btn--primary">Заказать</a>
@@ -28,7 +28,7 @@ include '../inc/header.php';
                 </div>
                 <div class="sale-card__content">
                     <h3>Умная колонка в подарок</h3>
-                    <p>При заказе любого комплекта от 30 000 ₽. Голосовое управление, музыка, управление умным домом.</p>
+                    <p>При заказе любого комплекта от 30 000 ₽.</p>
                     <div class="sale-card__promo-text">Только до конца месяца</div>
                     <a href="/smartinterior/pages/request.php" class="btn btn--primary">Подробнее</a>
                 </div>

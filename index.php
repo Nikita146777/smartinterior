@@ -3,6 +3,7 @@ $page = 'home';
 $page_title = 'SmartInterior | Умный дом в Челябинске';
 include 'inc/header.php';
 ?>
+
 <section class="hero">
     <div class="container hero__container">
         <div class="hero__content">
@@ -33,30 +34,22 @@ include 'inc/header.php';
         <h2 class="section-title">Услуги</h2>
         <div class="services__grid">
             <div class="service-card">
-                <div class="service__icon">
-                    <img src="/smartinterior/assets/images/проектирование.png" alt="Проектирование">
-                </div>
+                <div class="service__icon"><img src="/smartinterior/assets/images/проектирование.png" alt="Проектирование"></div>
                 <h3 class="service__title">Проектирование</h3>
                 <p class="service__desc">Инженерные решения и архитектура</p>
             </div>
             <div class="service-card">
-                <div class="service__icon">
-                    <img src="/smartinterior/assets/images/отделка под ключ.png" alt="Fit-out">
-                </div>
+                <div class="service__icon"><img src="/smartinterior/assets/images/отделка под ключ.png" alt="Fit-out"></div>
                 <h3 class="service__title">Fit-out</h3>
                 <p class="service__desc">Отделка и оснащение под ключ</p>
             </div>
             <div class="service-card">
-                <div class="service__icon">
-                    <img src="/smartinterior/assets/images/мультимедиа.png" alt="Мультимедиа">
-                </div>
+                <div class="service__icon"><img src="/smartinterior/assets/images/мультимедиа.png" alt="Мультимедиа"></div>
                 <h3 class="service__title">Инженерия и мультимедиа</h3>
                 <p class="service__desc">Умные системы, AI-интеграция</p>
             </div>
             <div class="service-card">
-                <div class="service__icon">
-                    <img src="/smartinterior/assets/images/разработка ПО.png" alt="Разработка ПО">
-                </div>
+                <div class="service__icon"><img src="/smartinterior/assets/images/разработка ПО.png" alt="Разработка ПО"></div>
                 <h3 class="service__title">Разработка ПО</h3>
                 <p class="service__desc">Приложения для удобства дома</p>
             </div>
@@ -69,8 +62,7 @@ include 'inc/header.php';
         <h2 class="section-title">О компании</h2>
         <div class="about__content">
             <p class="about__text">SmartInterior — лидер в области создания умных пространств в Челябинске и Магнитогорске. Мы объединяем компетенции в строительстве, инженерии и IT, чтобы создавать идеальные условия для жизни и работы.</p>
-            <p class="about__text">За 18 лет работы мы реализовали более 500 проектов: от квартир и загородных домов до бизнес-центров и стадионов. Наши ключевые проекты: Газпром Арена, Лахта Центр, Новая Голландия, а также множество частных резиденций по всему Уральскому региону.</p>
-            <p class="about__text">Мы используем только проверенные технологии от ведущих мировых производителей. Каждый проект сопровождается гарантией и постгарантийным обслуживанием. Наши специалисты проходят регулярное обучение и сертификацию.</p>
+            <p class="about__text">За 18 лет работы мы реализовали более 500 проектов: от квартир и загородных домов до бизнес-центров и стадионов.</p>
             <div class="about__cities">
                 <span class="city-badge">Челябинск</span>
                 <span class="city-badge">Магнитогорск</span>
@@ -84,31 +76,25 @@ include 'inc/header.php';
         <h2 class="section-title">Отзывы наших клиентов</h2>
         <div class="reviews__grid">
             <div class="review-card">
-                <div class="review__image">
-                    <img src="/smartinterior/assets/images/отзыв1.png" alt="Алексей">
-                </div>
+                <div class="review__image"><img src="/smartinterior/assets/images/отзыв1.png" alt="Алексей"></div>
                 <div class="review__content">
-                    <p class="review__text">"Удивительно качественные решения. Сервисный подход, отличная цена. Всё работает как часы уже второй год!"</p>
+                    <p class="review__text">"Удивительно качественные решения. Всё работает как часы уже второй год!"</p>
                     <div class="review__author">Алексей, Челябинск</div>
                     <div class="review__rating">★★★★★</div>
                 </div>
             </div>
             <div class="review-card">
-                <div class="review__image">
-                    <img src="/smartinterior/assets/images/отзыв2.png" alt="Екатерина">
-                </div>
+                <div class="review__image"><img src="/smartinterior/assets/images/отзыв2.png" alt="Екатерина"></div>
                 <div class="review__content">
-                    <p class="review__text">"Проект выполнен быстро и качественно. Без ущерба качества. Специалисты очень вежливые и профессиональные."</p>
+                    <p class="review__text">"Проект выполнен быстро и качественно. Специалисты очень вежливые."</p>
                     <div class="review__author">Екатерина, Магнитогорск</div>
                     <div class="review__rating">★★★★★</div>
                 </div>
             </div>
             <div class="review-card">
-                <div class="review__image">
-                    <img src="/smartinterior/assets/images/отзыв3.png" alt="Дмитрий">
-                </div>
+                <div class="review__image"><img src="/smartinterior/assets/images/отзыв3.png" alt="Дмитрий"></div>
                 <div class="review__content">
-                    <p class="review__text">"Отличные результаты! Инновационные решения, которые действительно упрощают жизнь. Рекомендую!"</p>
+                    <p class="review__text">"Отличные результаты! Инновационные решения, которые упрощают жизнь."</p>
                     <div class="review__author">Дмитрий, Челябинск</div>
                     <div class="review__rating">★★★★★</div>
                 </div>
@@ -126,30 +112,19 @@ include 'inc/header.php';
                 <p>Челябинск, ул. Карла Маркса, 36, офис 501</p>
                 <p>Магнитогорск, пр. Ленина, 85, ТЦ "Арена"</p>
                 <h3>Телефоны</h3>
-                <p>+7 (351) 123-45-67 (Челябинск)</p>
-                <p>+7 (3519) 67-89-01 (Магнитогорск)</p>
+                <p>+7 (351) 123-45-67</p>
+                <p>+7 (3519) 67-89-01</p>
                 <h3>Email</h3>
                 <p>info@smartinterior.ru</p>
-                <h3>Режим работы</h3>
-                <p>Пн-Пт: 9:00 - 20:00<br>Сб-Вс: 10:00 - 18:00</p>
             </div>
             <div class="contact__form">
                 <form class="feedback-form">
-                    <div class="form-group">
-                        <input type="text" placeholder="Ваше имя">
-                    </div>
-                    <div class="form-group">
-                        <input type="tel" placeholder="Телефон">
-                    </div>
-                    <div class="form-group">
-                        <textarea rows="3" placeholder="Ваш вопрос"></textarea>
-                    </div>
+                    <div class="form-group"><input type="text" placeholder="Ваше имя"></div>
+                    <div class="form-group"><input type="tel" placeholder="Телефон"></div>
+                    <div class="form-group"><textarea rows="3" placeholder="Ваш вопрос"></textarea></div>
                     <button type="submit" class="btn btn--primary btn--full">Отправить</button>
                 </form>
             </div>
-        </div>
-        <div class="contact__map">
-            <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A1a2b3c4d5e6f7g8h9i0j&source=constructor" width="100%" height="300" frameborder="0"></iframe>
         </div>
     </div>
 </section>

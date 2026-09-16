@@ -130,25 +130,6 @@ if ($hour >= 8 && $hour < 20) {
             background: <?php echo $theme == 'dark' ? '#f09030' : '#0a2a4a'; ?>;
         }
         
-        <?php if ($theme == 'dark'): ?>
-            a:not(.btn):not(.nav__link) { color: #6a9ad0; }
-            a:not(.btn):not(.nav__link):hover { color: #8ab8f0; }
-            .contact__info h3 { color: #e8edf5; }
-            .auth__link a { color: #e67e22; }
-            .auth__link a:hover { color: #f09030; }
-            .sale-card__old-price { color: #8a9ab0; }
-            .sale-card__new-price { color: #e67e22; }
-            .product-detail__specs li::before { color: #e67e22; }
-        <?php else: ?>
-            a:not(.btn):not(.nav__link) { color: #1a5a8a; }
-            a:not(.btn):not(.nav__link):hover { color: #e67e22; }
-            .contact__info h3 { color: #0a1a2e; }
-            .auth__link a { color: #e67e22; }
-            .auth__link a:hover { color: #c06010; }
-            .sale-card__old-price { color: #8a9aaa; }
-            .sale-card__new-price { color: #e67e22; }
-            .product-detail__specs li::before { color: #e67e22; }
-        <?php endif; ?>
         .theme-indicator {
             display: inline-block;
             width: 12px;
